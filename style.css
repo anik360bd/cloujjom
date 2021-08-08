@@ -1,0 +1,139 @@
+ 
+.navbar{
+    background-color: #000;
+}
+.navbar .nav-item{
+    padding-right: 10px;
+    font-size: 1.0rem;
+}
+.navbar .nav-item:last-child{
+    padding-right: 0;
+}
+.carousel-item img{
+    height: 600px;
+}
+
+@media(min-width:992px){
+    .carousel-item img{
+        height: 700px ;
+    }
+}
+#home-icon p{
+    margin-bottom: 0;
+}
+#home-icon span{
+    font-size: 25px;
+}
+#get-started{
+    position: relative;
+    background: url('image/hd_04.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+    
+}
+.dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+     
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+}
+@media(max-width:576px){
+    #get-started{
+        min-height: 350px;
+    }
+} 
+@media(max-width:450px){
+    #get-started{
+        min-height: 400px;
+    }
+} 
+@media(max-width:320px){
+    #get-started{
+        min-height: 500px;
+    }
+} 
+#vide-link{
+    background: url('image/why-choose-us1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+}
+#vide-link a{
+    text-decoration: none;
+}
+#vide-link span{
+    font-size: 30px;
+}
+.dark-color{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    min-height: 250px;
+    top: 0;
+    left: 0;
+    right: 0;
+} 
+#photo-gallery img{
+    min-height: 300px;
+    width: 700px;
+}
+#news-letter form{
+    width: 400px;
+    text-align:center;
+    display: inline-block;
+}
+@media(max-width:450px){
+    #news-letter form{
+        width: 300px;
+         
+    }
+}
+@media(max-width:320px){
+    #news-letter form{
+        width: 250px;
+         
+    }
+}
+#footer{
+    background-color: #000;
+} 
+#footer p{
+    margin-bottom: 0;
+}
+/* About Css */
+#about-head{
+    background: url('image/loop-lab2.jpg')no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+    min-height: 300px;
+} 
+#about-info img{
+    width: 230px;
+}
+#icon-boxes span{
+    font-size: 30px;
+     
+}
+#services-head{
+    background: url('image/foods.jpg')no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+    min-height: 300px;
+} 
+ 
+.card-header a{
+    text-decoration:none;
+} 
+.card-header a:hover{
+    text-decoration:underline;
+} 
+#blog-section img{
+    min-height: 250px;
+}
